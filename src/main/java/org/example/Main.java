@@ -1,7 +1,10 @@
 package org.example;
-
+/**
+ * Clase ejecuta el programa
+ */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GestorPeliculas gp = new GestorPeliculas();
+        gp.eliminarPeliculaPorID(199);
     }
 }
